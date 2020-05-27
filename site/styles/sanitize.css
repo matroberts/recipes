@@ -38,7 +38,7 @@
 html {
     cursor: default; /* 1 */
     font-family:
-    /* my google font choice */ 'Nunito Sans',
+    /* my google font choice */ "Work Sans",
     /* sanitize choice */ system-ui,
     /* macOS 10.11-10.12 */ -apple-system,
     /* Windows 6+ */ Segoe UI,

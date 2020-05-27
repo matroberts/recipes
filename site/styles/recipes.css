@@ -1,0 +1,22 @@
+table.ingredients {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+table.ingredients td {
+	padding: 0 5px;
+}
+
+@media print {
+	header {
+		display: none;
+	}
+
+	section.intro {
+		display: none;
+	}
+
+	footer {
+		display: none;
+	}
+}
