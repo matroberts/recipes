@@ -7,12 +7,53 @@ table.ingredients td {
 	padding: 0 5px;
 }
 
+/* figures */
+figure {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+article > figure {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+article > figure img {
+	object-fit: contain;
+	max-width: 400px;
+	height: auto;
+	border-radius: 2px;
+}
+
+figure > figcaption {
+	text-align: center;
+}
+
+/* footer */
+
+footer {
+	border-top: 1px solid grey;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer > address {
+	margin: 1em 0; /* Make address same margin as a p tag*/
+}
+
+/* print style */
+
 @media print {
 	header {
 		display: none;
 	}
 
-	section.intro {
+	article > section.intro {
+		display: none;
+	}
+
+	article > figure {
 		display: none;
 	}
 
