@@ -7,6 +7,11 @@ table.ingredients td {
 	padding: 0 5px;
 }
 
+span.time,
+span.temp {
+	font-weight: bold;
+}
+
 /* figures */
 figure {
 	margin-left: 0;
